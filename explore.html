@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+     <!--Main Style-->
+     <link href="style.css" rel="stylesheet">
+     <!--Fontawesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!-- Header -->
+     <header class="header sticky">
+        <div class="header_top">
+            <div class="header_link">
+                <a href="#">English</a>
+            </div>
+            <a href="index.html" class="header_logo">Louvre</a>
+            <div class="header_button">
+               <button class="general_button"><a href="tickets_menu.html" target="_blank">Tickets</a></button> 
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="header_bottom">
+            <a href="visit.html" target="_blank"> Visit</a>
+            <a href="explore.html"target="_blank" class="active"> Explore</a>
+            <a href="contactus.html"target="_blank"> Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Gallery -->
+    <div class="explore_gallery_container">
+        <h1 class="explore_gallery_header"> Image Gallery</h1>
+        <div id="explore_gallery"></div>
+    </div>
+   <div id="popup">
+       <img src="" alt="" id="explore_selected_image">
+   </div>
+
+   <!--FOOTER-->
+<footer class="container_black">
+    <div  class="footer_container">
+        <div class="footer_content">
+            <a href="visit.html">Visit</a>
+            <a class="active" href="explore.html">Explore</a>
+            <a href="contactus.html">Contact Us</a>
+            <a href="tickets_menu.html">Tickets</a>
+        </div>
+        <div class="newsletter">
+            <input class="newsletter_input" type="email" placeholder="Subscribe to newsletter">
+            <button class="general_button newsletter_button">Subscibe</button>
+        </div>
+        <div class="footer_social">
+            <h1>Folow Us:</h1>
+            <a href="#" ><i class="fab fa-facebook-square"></i></a>
+            <a href="#" ><i class="fab fa-instagram-square"></i></a>
+            <a href="#" ><i class="fab fa-twitter-square"></i></a>
+            <a href="#" > <i class="fab fa-pinterest-square"></i></a>
+        </div>
+    </div>
+    <div class="line">
+    </div>
+     <p> &copy;Copyright | All rights reserved </p>
+</footer>
+
+
+    <!--JAVA SCRIPT -->
+   <script src="gallery.js"></script>
+</body>
+</html>

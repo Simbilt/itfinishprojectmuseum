@@ -1,0 +1,1584 @@
+/* Imports*/
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap');
+
+/* General Style */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family:  'Cormorant Garamond', serif;
+}
+
+.general_button
+{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #656565;
+    border-radius: 25px;
+    background-color:#008573;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.general_button:hover{
+    background-color: #0a4f51;
+}
+
+.line
+{
+    width: 95%;
+    border-top: 1px solid #1a1a1a;
+    margin: auto;
+    margin-top: 30px;
+ 
+}
+
+.header_bottom a.active
+{
+    color:#008573;
+    background-color: #000;
+}
+
+.container_black{
+    background-color: #000000;
+    margin: none;
+}
+.container_green
+{
+    background-color: #008573;
+}
+.green_text{
+    color: #008573;
+}
+
+/* Header Style */
+
+
+.header
+{
+    width: 100vw;
+   /* height: 30vh;*/
+    background-color: #000000;
+    overflow: hidden;
+}
+
+/* Header top*/
+.header_top
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.header_link
+{
+
+}
+.header_link a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+.header_link a:hover
+{
+    text-decoration: underline;
+    color: #008573
+}
+.hamburger_menu
+{
+    margin-right: 10px;
+}
+.header_logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 3.2em;
+    font-family:'Cormorant Garamond', serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.header_button
+{
+    margin-right: 10px;
+}
+.general_button a
+{
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+}
+.general_button a:hover
+{
+    color: #fff;
+    background-color: #0a4f51;
+    text-decoration: none;
+}
+
+/* Header Bottom*/
+.header_bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+   /* margin-right: 100px;*/
+}
+.header_bottom a
+{
+    margin: 10px 0 20px 0;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header_bottom a:hover
+{
+    border-bottom: 3px solid #008573;
+    color: #008573;
+}
+
+/* Poster */
+ 
+.poster_image
+{
+    background-image: url(images/banner9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.poster 
+{
+   margin: 70px 0  0 100px;
+   width: 100vw;
+   height: 100vh;
+   position:absolute;
+   
+}  
+
+.poster h1
+{
+    font-size: 6em;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: none;
+    color: #fff;
+    text-shadow: -1px -1px 0px #000,
+    1px 1px 1px #000,
+    2px 2px 0px #000;
+}
+
+
+.poster .general_button 
+{
+    background-color: #008573;
+    margin-top: 30px;
+    width: 200px;
+    height: 60px;
+}
+
+.poster .general_button:hover
+{
+    background-color: #0a4f51;
+    text-decoration: none;
+}
+.poster_pasus
+{
+    position: absolute;
+    z-index: 1;
+    top: 300px;
+    left: 5px;
+    overflow: hidden;
+    color: #fff;
+    margin-top: 150px;
+    font-size: 25px;
+    font-family:  'Cormorant Garamond', serif;
+    text-shadow: -1px -1px 0px #000,
+    1px 1px 1px #000,
+    2px 2px 0px #000;
+   
+}
+.poster_krug
+{
+    color: green;
+    margin: 0px 0 0 10px;
+}
+
+/* COVID-19 SECTION */
+
+.covid-section
+{
+    width: 100vw;
+    background-color: beige;
+}
+.covid_text
+{
+    margin: 50px 0 50px 50px;
+}
+.covid-section h1
+{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family:  'Cormorant Garamond', serif ;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+.covid-section p
+{
+    font-size: 2em;
+    margin: 20px 0 20px 0;
+}
+.covid-section a
+{
+    font-size: 2em;
+    color: #000000;
+    text-decoration: none;
+}
+.covid-section i
+{
+    margin-left: 10px;
+    text-align: justify;
+}
+.covid-section a:hover
+{
+    text-decoration: underline;
+}
+
+/* HIGHLIGHTS */
+
+.highlights h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    margin: 50px 0 50px 0;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+/* SLIDER*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    height: 600px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* Welcome Section */
+  .section_welcome
+  {
+      text-align: center;
+      margin-top: 100px;
+  }
+  .section_welcome h1
+  {
+      font-size: 3em;
+      margin-bottom: 30px;
+  }
+  .section_welcome p
+  {
+      font-size: 2em;
+  }
+
+  /* BACKGROUND IMAGE*/
+
+  .backround_image
+  {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    max-height: 800px;
+  }
+
+  /* Galerija slike */
+.galerija-naslov
+{
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    grid-area: naslov;
+    letter-spacing: 10px;
+    font-weight:100;
+    margin: 20px;
+}
+.galerija_dugme
+{
+    position: absolute;
+    z-index: 1;
+    bottom: 35px;
+    left: 45%;
+    background-color: #fff;
+    color: #000;
+    font-size: 3em;
+    width: 200px;
+    height: 80px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.galerija_dugme:hover
+{
+    width: 210px;
+    height: 90px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #008573;
+    color: #fff;
+   font-size: 3.2em;
+}
+.galerija_container .box
+{
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 550px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+
+}
+
+.galerija_container .box .img_box
+{
+    position: relative;
+}
+.galerija_container .box .img_box
+{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.galerija_container .box:hover .img_box
+{
+    transform: scale(1.2);
+}
+
+.galerija_container .box .details
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,0.8);
+    transform: scaleY(0);
+    transition: transform 2s;
+}
+.galerija_container .box:hover .details
+{
+    transform: scaleY(1);
+}
+.galerija_container .box .details .content
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+.galerija_container .box .details .content h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    color: #ff0;
+}
+.galerija_container .box .details .content p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    color: #fff;
+}
+
+.galerija_container
+{
+    position: relative;
+    display: grid;
+    grid-template-areas:
+                        'naslov naslov naslov'
+                        'slika slika slika'
+                        'slika slika slika';
+                        
+    justify-content: space-around;
+    padding:  0 0 0;
+}
+
+/* VIDEO GALERIJA*/
+.video_galerija_naslov
+{
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-bottom: 50PX;
+}
+.video-galerija
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.video
+{
+    width: 400px;
+    height: 500px;
+}
+
+/*Footer*/
+.footer_container
+{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    width: 100vw;
+   
+}
+.footer_content a
+{
+  text-align: justify;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em; 
+  display: block;
+  text-transform: uppercase;
+  margin: 20px 0 20px 0;
+}
+.footer_content a:hover
+{
+    text-decoration: underline;
+    color: #008573;
+}
+.newsletter
+{
+    margin: auto;
+}
+
+.newsletter .newsletter_input
+{
+    width: 300px;
+    height: 60px;
+    font-size: 1.3em;
+    text-align: center;
+    margin-right: 30px;
+}
+.newsletter_button
+{
+    margin: 10px 0 10px 30px;
+    width: 60%;
+}
+.footer_social
+{
+    margin: auto;
+} 
+.footer_social a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 3em;
+    margin: 20px 15px 0 0;
+}
+.footer_social a:hover
+{
+    color: #008573;
+}
+.footer_social h1
+{
+    font-size: 2em;
+    color: #fff;
+}
+
+footer p
+{
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+/*TICKETS*/
+
+/*Tickets header*/
+.tickets_header
+{
+    width:90%;
+    margin: auto;
+    margin-top: 20px;
+    height: 30%;
+    overflow: hidden;
+}
+.tickets_header h1
+{
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+    margin: 30px;
+}
+/*Tickets aboit section*/
+.about
+{
+    width: 90%;
+    margin: auto;
+}
+
+.about h1
+{
+    background-color: #008573;
+    color: #fff;
+    padding: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+.about p
+{
+    padding: 10px;
+    font-size: 2em;
+}
+.about .green_text
+{
+
+}
+.container_green
+{
+    width: 100%;
+    margin: auto;
+    font-size: 1.5em;
+    color: #fff;
+    padding: 10px;
+}
+.ticket_box
+{
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid #1a1a1a;
+    text-decoration: none;
+}
+.ticket_image
+{
+    margin: 10px;
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+}
+.ticket_content
+{
+    color: #fff;
+    font-size: 2em;
+    margin: auto;
+}
+.price
+{
+    color: #008573;
+    font-size: 3em;
+    margin-left: 20%;
+}
+.last_box
+{
+    margin-bottom: 20px;
+}
+
+/*   VISIT  */
+
+/* Banner visit part*/
+.banner_visit
+{
+    width: 100vw;
+    height: 60vh;
+    background-image: url(images/visit_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_visit_text
+{
+    margin: 100px 0 0 100px;
+    text-shadow: -1px -1px 0px #000,
+    1px 1px 1px #000,
+    2px 2px 0px #000;
+}
+.banner_visit_text h1
+{
+    color: #fff;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.banner_visit_text p
+{
+    margin-top: 100px;
+    color: #fff;
+    font-size: 3em;
+}
+
+/* Tickets and Admision section*/
+.ticket_and_admision_section
+{
+    width:100%;
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+}
+.ticket_and_admision_section h1
+{
+    color: #0000e0;
+    margin: 50px 0 0 50px;
+    font-size: 2em;
+}
+.ticket_and_admision_section .line
+{
+    margin: none;
+    border-top: 1px solid #a0a0a0;
+}
+.ticket_and_admision_content_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ticket_and_admision_content h1
+{
+    color: #000;
+    margin: 50px 0 0 50px;
+    font-size: 2em;
+}
+.ticket_and_admision_content p
+{
+    font-size: 1.5em;
+    margin: 30px 0 0 50px;
+}
+.ticket_and_admision_notice
+{
+   background-color: #fff;
+   width: 500px;
+   border-radius: 5px;
+}
+.ticket_and_admision_notice
+{
+    margin-top: 30px;
+    padding: 30px;
+}
+.ticket_and_admision_notice h2
+{
+    color: #000;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+}
+.ticket_and_admision_notice h1
+{
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+    margin-top: 30px;
+}
+.ticket_and_admision_notice .arrow
+{
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+.ticket_and_admision_notice p
+{
+    text-align: center;
+    color: #1a1a1a;
+    font-size: 1.2em;
+    margin: 20px 0 20px 0;
+}
+.ticket_and_admision_notice h3
+{
+    text-align: center;
+    color: #000;
+    font-size: 2em;
+    margin-top: 30px;
+}
+.ticket_and_admision_notice h4
+{
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.ticket_and_admision_notice p span
+{
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ticket_and_admision_link 
+{
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: #000;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.ticket_and_admision_link:hover
+{
+    font-size: 1.6em;
+}
+
+/* Visitor Amenities */
+.ticket_and_admision_section.dark
+{
+    background-color: #1a1a1a;
+    width: 100%;
+}
+.ticket_and_admision_section.dark h1
+{
+    color: #008573;
+}
+.ticket_and_admision_content.dark h1
+{
+    color: #fff;
+}
+.ticket_and_admision_content.dark p
+{
+    color: #fff;
+}
+.ticket_and_admision_notice_dark
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.ticket_and_admision_notice_dark_item
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-bottom: 1px solid #656565;
+    border-right: 1px solid #656565;
+    margin-top: 10px;
+}
+.ticket_and_admision_notice_dark_item i
+{
+    font-size: 5em;
+    margin-top: 20px;
+}
+
+.ticket_and_admision_notice_dark_item i.green
+{
+    color: rgb(101, 193, 101);
+}
+.ticket_and_admision_notice_dark_item i.blue
+{
+    color: rgb(119, 119, 228);
+}
+.ticket_and_admision_notice_dark_item i.violet
+{
+    color: rgb(228, 114, 228)
+}
+.ticket_and_admision_notice_dark_item i.red
+{
+    color: rgb(233, 17, 17);
+}
+.ticket_and_admision_notice_dark_item i.beige
+{
+    color: rgb(212, 212, 200);
+}
+.ticket_and_admision_notice_dark_item i.orange
+{
+    color: rgb(212, 151, 36);
+}
+.ticket_and_admision_notice_dark_item h2
+{
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+/* MAPA */
+.map_header
+{
+    color: #008573;
+    margin: 30px 0 0 60px;
+}
+.visit_map
+{
+    width: 100%;
+    height: 700px;
+    margin-top: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visit_map iframe.map
+{
+    width: 90%;
+    height: 600px; 
+}
+
+/* Accesibility */
+.accesibility
+{
+    color: #0000e0;
+    margin: 30px 0 0 60px;
+}
+.accesibility_header h2
+{
+    color: #000;
+    font-size: 1.3em;
+}
+
+/* FAQ */
+.FAQ_dark
+{
+    background-color: #1a1a1a;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.FAQ_dark.accordion
+{
+    margin: auto;
+}
+.FAQ_text
+{
+    color: #fff;
+    margin-left: 30px;
+}
+.FAQ_text h1
+{
+    color:rgb(255, 166, 0);
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+.FAQ_text h2
+{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.FAQ_text p
+{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1.3em;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #656565;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  /* Explore */
+
+  .explore_gallery_container
+  {
+      max-width: 1600px;
+      padding: 50px 20px;
+      margin: 0 auto;
+      background-color: #a0a0a0;
+  }
+  .explore_gallery_header
+  {
+    background-color: #a0a0a0;
+    padding-bottom: 50px;
+    text-decoration: underline;
+  }
+  #explore_gallery
+  {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      grid-gap: 20px;
+      background-color: #a0a0a0;
+  }
+
+  .explore_gallery_img
+  {
+      max-width: 100%;
+      border-radius: 10px;
+      position: relative;
+      transition: transform 250ms;
+      cursor: pointer;
+  }
+
+  .explore_gallery_img:hover
+  {
+    transform: translateY(-2px);
+    box-shadow: 3px 3px 10px #000;
+  }
+
+  #popup
+  {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.95);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-100%);
+      transition: 250ms transform;
+      padding: 50px;
+  }
+
+  #explore_selected_image
+  {
+      max-height: 100%;
+  }
+
+  /*contact us*/
+
+  .banner_visit.banner_contact_us
+  {
+      background-image: url(images/banner8.jpg);
+  }
+
+  .card.card_contactus_center
+  {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .card-body.card_contactus_body
+  {
+      width: 60%;
+  }
+
+  .header_logo:hover {
+      color: #fff;
+  }
+
+
+
+
+
+
+
+  /* Media Querries*/
+  /* Extra small devices (phones, 600px and down) */
+  @media all and (max-width: 480px)
+  {
+    .header_top
+    {
+        padding: 10px 0 0 0 ;
+    }
+    .header_logo
+    {
+        font-size: 2em;
+
+    }
+     .header_button
+    {
+      left: 50px;
+        
+    }
+    .header_link
+    {
+        display: none;
+    }
+    .line
+    {
+        width: 80%;
+    }
+    .header_bottom a
+    {
+        font-size: 1.5em;
+    }
+    .poster_image
+    {
+        height: 80vh;
+    }
+    .poster
+    {
+     
+      margin: 20px 0 0 20px;
+      overflow: hidden;
+    }
+    .poster_header
+    {
+        font-size: 1em;
+    }
+    .poster_pasus
+    {
+        top: 200px;
+        font-size: 1.5em;
+    }
+    .covid_text
+    {
+        font-size: 0.7em;
+        margin-right: 20px;
+    }
+    .highlights h1
+    {
+        font-size: 3em;
+    }
+    .slideshow-container
+    {
+        height: 50%;
+    }
+    .section_welcome
+    {
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .section_welcome h1 
+    {
+       font-size: 3em;
+    }
+    .section_welcome p
+    {
+        font-size: 1.5em;
+    }
+    .backround_image
+    {
+        margin: 10px 0 10px 0;
+        height: 60%;
+    }
+    .galerija_container
+    {
+      grid-template-areas:
+      'naslov'
+      'slika'
+      'slika ';
+      justify-content: space-around;
+    }
+
+    .galerija-naslov
+    {
+        font-size: 3em;
+    }
+    .galerija_container .box
+    {
+        width: 400px;
+        height: 500px;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .galerija_dugme
+    {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .video_galerija_naslov
+    {
+        font-size: 3em;
+        margin: 20px 0 20px 0;
+    }
+    .video_galerija_naslov
+    {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .footer_container
+    {
+        grid-template-columns: auto;
+    }
+    .footer_content
+    {
+       margin: auto;
+    }
+    .newsletter
+    {
+       margin-left: 55px;
+    }
+    .newsletter_button
+    {
+      margin: 10px 0 10px 2px;
+      width: 70%;
+    }
+
+    /* VISIT */
+    .banner_visit
+    {
+        overflow: hidden;
+    }
+    .banner_visit_text
+    {
+        width: 100vw;
+        margin: 0 0 0 10px;
+        font-size: 0.9em;
+    }
+    .ticket_and_admision_content_container
+    {
+        flex-direction: column;
+    }
+    .ticket_and_admision_notice
+    {
+        text-align: center;
+    }
+    .ticket_and_admision_notice_dark
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+   .header_contact_us
+    {
+        overflow: hidden;
+        text-align: center;
+        height: 40px;
+   }
+   .banner_visit_text
+   {
+      margin-top: 30px;
+   }
+   .banner_visit_text h1
+   {
+       font-size: 3em;
+       margin-top: 30px;
+   }
+   .banner_visit_text p
+   {
+       margin-top: 30px;
+   }
+
+   /* TICKETS */
+   .tickets_header
+   {
+       width: 100%;
+       overflow: hidden;
+       font-size:0.6em;
+   }
+   .about
+   {
+      width: 100%;
+   }
+   .container_green
+   {
+       width: 100%;
+   }
+   .ticket_box
+   {
+       width: 100%;
+       box-sizing: border-box;
+       flex-direction: column;
+       padding: 10px;
+   }
+   .ticket_image
+   {
+       margin-left: 30px;
+      
+   }
+   .ticket_content
+   {
+      width: 100%;
+      font-size:1.5em;
+      text-align: center;
+   }
+   .price
+   {
+     margin-left: 20px;
+   }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media all and (max-width: 600px)
+{
+    .header_link a
+    {
+        display: none;
+    }
+    .header_logo
+    {
+        margin-right: 150px;
+    }
+    .poster
+    {
+        margin: 50px 0 0 50px;
+    }
+    .poster h1
+    {
+        font-size: 4em;
+    }
+    .poster_pasus
+    {
+        width: 80%;
+        top: 400px;
+        left: 5px;
+        margin-top: 0;
+        font-size: 1.5em;
+    }
+    .covid-section
+    {
+       padding-right: 30px;
+       
+    }
+    .covid_text
+    {
+        font-size: 0.8em;
+    }
+    .highlights h1
+    {
+        font-size: 4em;
+    }
+    .slideshow-container
+    {
+        height: 50vh;
+    }
+    .backround_image
+    {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .galerija_container
+    {
+        grid-template-areas:
+        ' naslov'
+        'slika'
+        'slika';
+        grid-row-gap: 10px;
+    }
+    .galerija_container .box
+    {
+        margin: auto;
+    }
+    .galerija_dugme
+    {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .video
+    {
+        width: 100vw;
+    }
+    .footer_container
+    {
+        grid-template-columns: auto;
+    }
+    .footer_content
+    {
+       margin: auto;
+    }
+    .newsletter
+    {
+    margin-left: 80px;
+    }
+    .newsletter_button
+    {
+      margin: 10px 0 10px 0;
+      width: 75%;
+    }
+
+    /* VISITS*/
+    .banner_visit
+    {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .banner_visit_text
+    {
+        margin: 50px 0 0 20px;
+    }
+    .ticket_and_admision_content_container
+    {
+        flex-direction: column;
+    }
+    .ticket_and_admision_notice
+    {
+        text-align: center;
+    }
+    .ticket_and_admision_notice_dark
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+   .header_contact_us
+    {
+        overflow: hidden;
+        text-align: center;
+        height: 40px;
+   }
+   .banner_visit_text
+   {
+      margin-top: 30px;
+   }
+   .banner_visit_text h1
+   {
+       font-size: 3em;
+       margin-top: 30px;
+   }
+   .banner_visit_text p
+   {
+       margin-top: 30px;
+   }
+
+   .ticket_image
+   {
+       width: 400px;
+       margin: auto;
+       align-items: center;
+       justify-content: center;
+   }
+}
+
+@media all and (max-width: 900px)
+{
+    .header_link a
+    {
+        display: none;
+    }
+    .header_logo
+    {
+        margin-right: 200px;
+    }
+    .header_button
+    {
+        margin-right: 50px;
+    }
+    .poster
+    {
+        margin: 50px 0 0 50px;
+    }
+    .poster h1
+    {
+        font-size: 4em;
+    }
+    .poster_pasus
+    {
+        width: 80%;
+        top: 400px;
+        left: 5px;
+        margin-top: 0;
+        font-size: 1.5em;
+    }
+    .covid-section
+    {
+       padding-right: 30px;
+       
+    }
+    .covid_text
+    {
+        font-size: 0.8em;
+    }
+    .highlights h1
+    {
+        font-size: 4em;
+    }
+    .slideshow-container
+    {
+        height: 50vh;
+    }
+    .backround_image
+    {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .galerija_container
+    {
+        grid-template-areas:
+        ' naslov'
+        'slika'
+        'slika';
+        grid-row-gap: 10px;
+    }
+    .galerija_container .box
+    {
+        margin: auto;
+    }
+    .galerija_dugme
+    {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .video
+    {
+        width: 100vw;
+    }
+    .footer_container
+    {
+        grid-template-columns: auto;
+    }
+    .footer_content
+    {
+       margin: auto;
+    }
+    .newsletter
+    {
+    margin-left: 80px;
+    }
+    .newsletter_button
+    {
+      margin: 10px 0 10px 0;
+      width: 75%;
+    }
+
+    /* VISITS*/
+    .banner_visit
+    {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .banner_visit_text
+    {
+        margin: 50px 0 0 20px;
+    }
+    .ticket_and_admision_content_container
+    {
+        flex-direction: column;
+    }
+    .ticket_and_admision_notice
+    {
+        text-align: center;
+    }
+    .ticket_and_admision_notice_dark
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+   .header_contact_us
+    {
+        overflow: hidden;
+        text-align: center;
+        height: 40px;
+   }
+   .banner_visit_text
+   {
+      margin-top: 30px;
+   }
+   .banner_visit_text h1
+   {
+       font-size: 3em;
+       margin-top: 30px;
+   }
+   .banner_visit_text p
+   {
+       margin-top: 30px;
+   }
+   .ticket_box{
+       flex-direction: column;
+   }
+
+   .ticket_image
+   {
+       width: 400px;
+       margin: auto;
+       align-items: center;
+       justify-content: center;
+   }
+}
+
+@media all and (min-width: 1240px)
+{
+    
+  
+}
+

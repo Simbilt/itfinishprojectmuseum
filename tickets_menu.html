@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <!--Main style-->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!--Fontawesome-->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .answer{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            height: 350px;
+            background-color: #fff;
+            margin: auto;
+            text-align: justify;
+            font-size: 20px;
+            box-shadow: 3px 3px 3px #000;
+            border-radius: 20px;
+            border: 1px solid #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           flex-direction: column;
+            overflow: hidden;
+        }
+        .li{
+            text-align: justify;
+            margin: 15px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+     <!-- Header -->
+     <header class="header sticky">
+        <div class="header_top">
+            <div class="header_link">
+                <a href="#">English</a>
+            </div>
+            <a href="index.html" class="header_logo">Louvre</a>
+            <div class="header_button">
+               <button class="general_button"><a href="tickets_menu.html" target="_blank">Tickets</a></button> 
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="header_bottom">
+            <a href="visit.html" target="_blank"> Visit</a>
+            <a href="explore.html" target="_blank"> Explore</a>
+            <a href="contactus.html"target="_blank"> Contact Us</a>
+        </div>
+    </header>
+        <div class="container_black tickets_header">
+            <h1>Official Ticketing Service</h1>
+        </div>
+        <div class="about">
+            <h1>Welcome to the official Louvre online sales site</h1>
+            <p>The Musée du Louvre is reopening and we are glad to be able to welcome you back again.</p>
+            <p> In line with the measures taken to prevent the spread of COVID-19, visitors will be required to wear a mask.</p>
+            <p class="green_text">In order to reduce the risk of transmission of COVID-19, all visitors aged 18 and up must present a vaccination certificate as of 21 July.</p>
+            <p>All visitors, including those entitled to free admission, must book a time slot.</p>
+            <p>For more information about the new itineraries that have been set up, please click here.
+            </p>
+            <p>Please accept our apologies for the inconvenience.</p>
+        </div>
+        <div class="container_green">
+            <h1>Choose your ticket</h1>
+        </div>
+        <div id="response"></div>
+       <a href="#"id="ticket" class="ticket_box">
+            <div class="ticket_image">
+                <img src="images/photo_2.jpg">
+            </div>
+            <div class="ticket_content">
+                <h1 class="green_text">Individual tickets for museum</h1>
+                <p> Admision tickets for the museum</p>
+                <p class="price">10$</p>
+            </div>
+        </a>
+        <a href="#" id="ticket" class="ticket_box">
+            <div class="ticket_image">
+                <img src="images/photo_3.jpg">
+            </div>
+            <div class="ticket_content">
+                <h1 class="green_text">Individual tickets for museum</h1>
+                <p> Admision tickets for the museum</p>
+                <p class="price">15$</p>
+            </div>
+        </a>
+
+        <a href="#" class="ticket_box">
+            <div class="ticket_image">
+                <img src="images/photo_4.jpg">
+            </div>
+            <div class="ticket_content">
+                <h1 class="green_text">tickets for Paris - Athenes </h1>
+                <p> Ticket and time slot reservation for access to this exibition.</p>
+                <p class="price">8$</p>
+            </div>
+        </a>
+
+        <a href="#" class="ticket_box">
+            <div class="ticket_image">
+                <img src="images/photo_5.jpg">
+            </div>
+            <div class="ticket_content">
+                <h1 class="green_text">Paris Museum Pass holders</h1>
+                <p> Compulsory time slot booking</p>
+                <p class="price">12$</p>
+            </div>
+        </a>
+
+        <a href="#" class="ticket_box last_box">
+            <div class="ticket_image">
+                <img src="images/photo_1.jpg">
+            </div>
+            <div class="ticket_content">
+                <h1 class="green_text">Audio Guide booking for </h1>
+                <p> Perment collections</p>
+                <p class="price">30$</p>
+            </div>
+        </a>
+        <!--Footer-->
+        <footer class="container_black">
+            <div  class="footer_container">
+                <div class="footer_content">
+                    <a href="visit.html">Visit</a>
+                    <a href="explore.html">Explore</a>
+                    <a href="contactus.html">Contact us</a>
+                    <a class="active"href="tickets_menu.html">Tickets</a>
+                </div>
+                <div class="newsletter">
+                    <input class="newsletter_input" type="email" placeholder="Subscribe to newsletter">
+                    <button class="general_button newsletter_button">Subscibe</button>
+                </div>
+                <div class="footer_social">
+                    <h1>Folow Us:</h1>
+                    <a href="#" ><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" ><i class="fab fa-instagram-square"></i></a>
+                    <a href="#" ><i class="fab fa-twitter-square"></i></a>
+                    <a href="#" > <i class="fab fa-pinterest-square"></i></a>
+                </div>
+            </div>
+            <div class="line">
+            </div>
+             <p> &copy;Copyright | All rights reserved </p>
+        </footer>
+
+    </div>
+    <!--main javascript-->
+    <script src="tickets.js"></script>
+</body>
+</html>
